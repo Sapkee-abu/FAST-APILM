@@ -1,0 +1,6 @@
+services:
+  api-sapkee:
+    build: .
+    ports:
+      - "8511:8000"
+    restart: always
